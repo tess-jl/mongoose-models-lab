@@ -6,6 +6,7 @@ describe('Hat Model', () => {
       const hat = new Hat({
         shape: 'standard',
         size: 'small',
+        logo: true
       });
       const { errors } = hat.validateSync();
       expect(errors.name.message).toEqual('Path `name` is required.');
@@ -17,6 +18,7 @@ describe('Hat Model', () => {
       const shape = new Hat({
         name: 'baseball cap',
         size: 'small',
+        logo: true
       });
       const { errors } = shape.validateSync();
       expect(errors.shape.message).toEqual('Path `shape` is required.');
@@ -28,9 +30,22 @@ describe('Hat Model', () => {
       const hat = new Hat({
         name: 'baseball cap',
         shape: 'standard',
+        logo: true
       });
       const { errors } = hat.validateSync();
       expect(errors.size.message).toEqual('Path `size` is required.');
+    });
+  });
+
+  describe('logo', () => {
+    it('requires a logo', () => {
+      const hat = new Hat({
+        name: 'baseball cap',
+        shape: 'standard',
+        size: 'small'
+      });
+      const { errors } = hat.validateSync();
+      expect(errors.logo.message).toEqual('Path `logo` is required.');
     });
   });
 });

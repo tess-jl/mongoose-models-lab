@@ -1,20 +1,20 @@
 const mongoose = require('mongoose');
 
 const schema = new mongoose.Schema({
-  name: {
+  material: {
     type: String,
     required: true
   },
-  shape: {
-    type: String,
+  sharpened: {
+    type: Boolean,
     required: true,
   },
   size: {
     type: String,
     required: true,
   }, 
-  logo: {
-    type: Boolean, 
+  color: {
+    type: String, 
     required: true
   }
 });

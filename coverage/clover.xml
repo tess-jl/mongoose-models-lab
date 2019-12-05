@@ -1,12 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1575589017387" clover="3.2.0">
-  <project timestamp="1575589017387" name="All files">
-    <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0" elements="6" coveredelements="6" complexity="0" loc="6" ncloc="6" packages="1" files="2" classes="2"/>
+<coverage generated="1575589752995" clover="3.2.0">
+  <project timestamp="1575589752995" name="All files">
+    <metrics statements="9" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0" elements="9" coveredelements="9" complexity="0" loc="9" ncloc="9" packages="1" files="3" classes="3"/>
     <file name="Hat.js" path="/Users/Tess/alchemy/career-track/week-01/mongoose-models-lab/models/Hat.js">
       <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-      <line num="5" count="1" type="stmt"/>
-      <line num="7" count="1" type="stmt"/>
-      <line num="26" count="1" type="stmt"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="3" count="1" type="stmt"/>
+      <line num="22" count="1" type="stmt"/>
+    </file>
+    <file name="Pencil.js" path="/Users/Tess/alchemy/career-track/week-01/mongoose-models-lab/models/Pencil.js">
+      <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="3" count="1" type="stmt"/>
+      <line num="22" count="1" type="stmt"/>
     </file>
     <file name="Tree.js" path="/Users/Tess/alchemy/career-track/week-01/mongoose-models-lab/models/Tree.js">
       <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
