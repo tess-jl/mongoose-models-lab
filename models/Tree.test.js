@@ -1,4 +1,3 @@
-
 const Tree = require('./Tree.js');
 
 describe('Tree Model', () => {
