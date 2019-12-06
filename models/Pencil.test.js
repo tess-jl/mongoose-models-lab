@@ -37,7 +37,6 @@ describe('Pencil Model', () => {
     });
   });
 
-
   describe('color', () => {
     it('requires a color', () => {
       const pencil = new Pencil({

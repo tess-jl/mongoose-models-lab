@@ -12,6 +12,7 @@ const schema = new mongoose.Schema({
   size: {
     type: String,
     required: true,
+    enum: ['small', 'medium', 'large']
   }, 
   color: {
     type: String, 
@@ -19,4 +20,4 @@ const schema = new mongoose.Schema({
   }
 });
 
-module.exports = mongoose.model('Hat', schema);
+module.exports = mongoose.model('Pencil', schema);
